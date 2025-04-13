@@ -1,4 +1,4 @@
-class Corrida{
+export class Corrida{
     constructor(rodada, nome, circuito, data, horario){
         this.rodada = rodada;
         this.nome = nome;
