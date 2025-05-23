@@ -1,0 +1,49 @@
+@import "reset.css";
+
+.header{
+    width: 100%;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.header-link{
+    font-family: var(--font-exo2);
+    font-style: italic;
+    font-optical-sizing: auto;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-link:hover{
+    color: var(--cor1);
+}
+
+body{
+    background-color: var(--cor5);
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temporadas{
+    width: 100%;;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.temporada{
+    padding: 2%;
+    background-color: var(--cor2);
+}
